@@ -1,5 +1,4 @@
 @echo off
-:TOP
 cd "C:\Users\ewaty\Documents\COSEKE_WORK\REACT\PRT"
 echo "pulling main"
 git pull origin main
@@ -13,4 +12,3 @@ echo "Merged Successfully!"
 echo "Returning to EricDev branch!"
 git checkout EricDev
 echo "Now on EricDev branch"
-goto :TOP
