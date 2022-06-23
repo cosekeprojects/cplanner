@@ -12,3 +12,4 @@ echo "Merged Successfully!"
 echo "Returning to EricDev branch!"
 git checkout EricDev
 echo "Now on EricDev branch"
+
