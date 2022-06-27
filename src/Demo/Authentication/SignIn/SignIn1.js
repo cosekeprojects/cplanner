@@ -8,6 +8,7 @@ import DEMO from "./../../../store/constant";
 import avatar1 from './../../../assets/images/user/avatar-1.jpg';
 import avatar2 from './../../../assets/images/user/avatar-2.jpg';
 import avatar3 from './../../../assets/images/user/avatar-3.jpg';
+import cosekelogo from './../../../assets/images/Cosekelogo.ico';
 
 import './../../../assets/scss/style.scss';
 import './../../../assets/scss/login.css';
@@ -22,46 +23,46 @@ class SignUp1 extends React.Component {
                 <div className="auth-wrapper1">
                     <div className="row">
                         
-                    <Col md={6} xl={5} className="b24network-auth">
-                    <div className="b24-network-auth-cover">
-                        <div className="b24-network-auth-cover-top">
-                            <div className="b24-network-auth-cover-img-block">
-                                
+                    <Col md={6} xl={5} className="c2unetwork-auth">
+                    <div className="c2u-network-auth-cover">
+                        <div className="c2u-network-auth-cover-top">
+                            <div className="c2u-network-auth-cover-img-block">
+                            <img src={cosekelogo} className="logoimage"/>
                             </div>
-                            <div className="b24-network-auth-cover-back">
-                                <a href="https://www.bitrix24.com" className="b24-network-auth-cover-back-link">back to site</a>
+                            <div className="c2u-network-auth-cover-back">
+                                <a href="/" className="c2u-network-auth-cover-back-link">back to site</a>
                             </div>
                         </div>
-                        <div className="b24-network-auth-cover-header">
-                        <div className="b24-network-auth-cover-header">
-                        <div className="b24-network-auth-cover-title">COSEKE U LTD</div>
-                        <div className="b24-network-auth-cover-subtitle">
-                            <span className="b24-network-auth-cover-subtitle-text">Quality.</span>
-                            <span className="b24-network-auth-cover-subtitle-text"> Means No .</span>
-                            <span className="b24-network-auth-cover-subtitle-text">Online.</span>
+                        <div className="c2u-network-auth-cover-header">
+                        <div className="c2u-network-auth-cover-header">
+                        <div className="c2u-network-auth-cover-title">COSEKE U LTD</div>
+                        <div className="c2u-network-auth-cover-subtitle">
+                            <span className="c2u-network-auth-cover-subtitle-text">Quality.</span>
+                            <span className="c2u-network-auth-cover-subtitle-text"> Means No .</span>
+                            <span className="c2u-network-auth-cover-subtitle-text">Online.</span>
                         </div>
                         
-                        <div className="b24-network-auth-cover-subtitle">
-                            <span className="b24-network-auth-cover-subtitle-text" >Register today and get free forever plan and unlimited user</span>
+                        <div className="c2u-network-auth-cover-subtitle">
+                            <span className="c2u-network-auth-cover-subtitle-text" >Register today and get free forever plan and unlimited user</span>
                         </div>
                         </div>		
                         </div>
-                        <div className="b24-network-auth-cloud-block">
-                            <div className="b24-network-auth-cloud b24-network-auth-cloud-lg"></div>
-                            <div className="b24-network-auth-cloud b24-network-auth-cloud-sm"></div>
-                            <div className="b24-network-auth-cloud b24-network-auth-cloud-md"></div>
-                            <div className="b24-network-auth-cloud b24-network-auth-cloud-fill"></div>
+                        <div className="c2u-network-auth-cloud-block">
+                            <div className="c2u-network-auth-cloud c2u-network-auth-cloud-lg"></div>
+                            <div className="c2u-network-auth-cloud c2u-network-auth-cloud-sm"></div>
+                            <div className="c2u-network-auth-cloud c2u-network-auth-cloud-md"></div>
+                            <div className="c2u-network-auth-cloud c2u-network-auth-cloud-fill"></div>
                         </div>
                     </div>
                     </Col>
                     <Col md={6} xl={7}>
-                    <div class="b24-network-auth-form">
-                        <div class="b24-network-auth-form-wrap">
-                            <div class="b24-network-auth-form-inner">
+                    <div class="c2u-network-auth-form">
+                        <div class="c2u-network-auth-form-wrap">
+                            <div class="c2u-network-auth-form-inner">
                                 <div id="authorize-layout">
                                     <div>
-                                        <div class="b24-network-auth-form-title-block">
-                                            <span class="b24-network-auth-form-title">C-Planner Login</span>
+                                        <div class="c2u-network-auth-form-title-block">
+                                            <span class="c2u-network-auth-form-title">C-Planner Login</span>
                                         </div>
                                 
                                     </div>
