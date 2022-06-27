@@ -12,10 +12,10 @@
   flex: 1;
   width: 100%;
   min-height: 100%;
-  background: #5ce5fb;
-  background: -moz-linear-gradient(top,#5ce5fb 0,#2fc6f6 100%);
-  background: -webkit-linear-gradient(top,#5ce5fb 0,#2fc6f6 100%);
-  background: linear-gradient(to bottom,#5ce5fb 0,#2fc6f6 100%);
+  background: #d02d34;
+  background: -moz-linear-gradient(top,#d02d34,#ece734 100%);
+  background: -webkit-linear-gradient(top,#d02d34 0,#ece734 100%);
+  background: linear-gradient(to bottom,#d02d34 0,#ece734 100%);
 }
 
 .b24network-auth-animate .b24-network-auth-cover, .b24network-auth-animate .b24-network-auth-form {
