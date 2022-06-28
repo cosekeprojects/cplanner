@@ -22,7 +22,8 @@
     "react-scripts": "^5.0.1",
     "react-window-size": "^1.2.2",
     "redux": "^4.0.1",
-    "sass": "^1.52.3"
+    "sass": "^1.52.3",
+    "stripe": "^9.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
