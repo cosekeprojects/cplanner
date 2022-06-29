@@ -6,25 +6,20 @@ window.$ = $;
 global.jQuery = $;
 
 const DashboardDefault = React.lazy(() => import('./Demo/Dashboard/Default'));
-
 const UIBasicButton = React.lazy(() => import('./Demo/UIElements/Basic/Button'));
 const UIBasicBadges = React.lazy(() => import('./Demo/UIElements/Basic/Badges'));
 const UIBasicBreadcrumbPagination = React.lazy(() => import('./Demo/UIElements/Basic/BreadcrumbPagination'));
-
 const UIBasicCollapse = React.lazy(() => import('./Demo/UIElements/Basic/Collapse'));
 const UIBasicTabsPills = React.lazy(() => import('./Demo/UIElements/Basic/TabsPills'));
 const UIBasicBasicTypography = React.lazy(() => import('./Demo/UIElements/Basic/Typography'));
-
 const FormsElements = React.lazy(() => import('./Demo/Forms/FormsElements'));
-
 const BootstrapTable = React.lazy(() => import('./Demo/Tables/BootstrapTable'));
-
 const Nvd3Chart = React.lazy(() => import('./Demo/Charts/Nvd3Chart/index'));
-
 const GoogleMap = React.lazy(() => import('./Demo/Maps/GoogleMap/index'));
-
 const OtherSamplePage = React.lazy(() => import('./Demo/Other/SamplePage'));
 const OtherDocs = React.lazy(() => import('./Demo/Other/Docs'));
+const SignUp1 = React.lazy(() => import('./Demo/Authentication/SignUp/SignUp1'));
+
 
 const routes = [
     { path: '/dashboard/default', exact: true, name: 'Default', component: DashboardDefault },
@@ -40,6 +35,7 @@ const routes = [
     { path: '/maps/google-map', exact: true, name: 'Google Map', component: GoogleMap },
     { path: '/sample-page', exact: true, name: 'Sample Page', component: OtherSamplePage },
     { path: '/docs', exact: true, name: 'Documentation', component: OtherDocs },
+    { path: '/auth/signup-1', exact: true, name: 'Signup 1', component: SignUp1 },
 ];
 
 export default routes;
