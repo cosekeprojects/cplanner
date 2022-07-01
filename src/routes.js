@@ -18,7 +18,8 @@ const Nvd3Chart = React.lazy(() => import('./Demo/Charts/Nvd3Chart/index'));
 const GoogleMap = React.lazy(() => import('./Demo/Maps/GoogleMap/index'));
 const OtherSamplePage = React.lazy(() => import('./Demo/Other/SamplePage'));
 const OtherDocs = React.lazy(() => import('./Demo/Other/Docs'));
-const SignUp1 = React.lazy(() => import('./Demo/Authentication/SignUp/SignUp1'));
+const SignIn1 = React.lazy(() => import('./Demo/Authentication/SignIn/SignIn1'));
+
 
 
 const routes = [
@@ -35,7 +36,7 @@ const routes = [
     { path: '/maps/google-map', exact: true, name: 'Google Map', component: GoogleMap },
     { path: '/sample-page', exact: true, name: 'Sample Page', component: OtherSamplePage },
     { path: '/docs', exact: true, name: 'Documentation', component: OtherDocs },
-    { path: '/auth/signup-1', exact: true, name: 'Signup 1', component: SignUp1 },
+    { path: '/auth/signin', exact: true, name: 'Signin1', component: SignIn1 },
 ];
 
 export default routes;
