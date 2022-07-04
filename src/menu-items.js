@@ -93,10 +93,18 @@ export default {
                     type: 'item',
                     url: '/forms/form-basic',
                     icon: 'feather icon-list'
+                },
+                {
+                    id: 'form-basic',
+                    title: 'Budgeting',
+                    type: 'item',
+                    url: '/forms/form-basic',
+                    icon: 'feather icon-list'
                 }
                
             ]
         },
+        
         {
             id: 'chart-maps',
             title: 'Marketing',
